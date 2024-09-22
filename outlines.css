@@ -2,3 +2,17 @@
     background-color: #f3e9dc;
     color: #5e3023;
 }
+
+.entering-name-label{
+    font-size: 120px;
+}
+
+.about-portfolio{
+    text-align: center;
+    height: 900px;
+    width: 100%;
+}
+
+.link-button{
+    background-color: #dab49d;
+}
