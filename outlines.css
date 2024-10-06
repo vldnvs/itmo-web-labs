@@ -9,7 +9,7 @@
 
 .about-portfolio {
     text-align: center;
-    height: 400px;
+    height: 640px;
     width: 100%;
 }
 
@@ -26,7 +26,7 @@
     padding: 10px 20px;
     background-color: #DAB49D;
     border: 1px solid #b19282;
-    border-radius: 0px;
+    border-radius: 4px;
     box-shadow: 0px 10px 0 15px #bd9b87;
 
 
@@ -35,7 +35,7 @@
     color: #5e3023;
     text-align: center;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.15s ease;
 }
 
 .link-button:active {
