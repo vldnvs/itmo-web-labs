@@ -8,6 +8,9 @@
 
 .entering-name-label {
     font-size: 120px;
+
+    /*position: fixed; !*ToDO: Удалить после сдачи лабы*!
+    background-color: #f3e9dc;*/
 }
 
 .about-portfolio {
@@ -161,16 +164,4 @@
     max-width: 100px;
     height: auto;
     margin: 5px 0;
-}
-
-table {
-    width: 100%; /* Ширина таблицы */
-    border-spacing: 0; /* Расстояние между ячейками */
-}
-tr:nth-child(2n) {
-    background: #f0f0f0; /* Цвет фона */
-}
-tr:nth-child(1) {
-    background: #666; /* Цвет фона */
-    color: #fff; /* Цвет текста */
 }
