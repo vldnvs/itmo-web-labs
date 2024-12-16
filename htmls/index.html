@@ -5,7 +5,8 @@
     <link rel="stylesheet" type="text/css" href="../outlines.css" />
     <title>Vildanov Iskander`s Portfolio</title>
     <script src="../scripts/onHoverButtonEffect.js"></script>
-    <script src="../scripts/weatherApi.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="../scripts/typeName.js"></script>
 </head>
 <body class="body">
    <!-- <script src="https://rawcdn.githack.com/ArtMan-8/outline-prototype/e73da2a1ee9031564b56ed5d98541891f7123933/js/outline-control.js"></script>-->
@@ -15,7 +16,7 @@
             <section class="about-portfolio">
                 <div class="entering-name-label">
                     <a class="entering-name-label-href" href="todolist.html">
-                        <p>vldnvs</p>
+                        <span id="typed"><hello></hello></span>
                     </a>
                 </div>
 
@@ -37,5 +38,13 @@
             </nav>
         </div>
     </main>
+   <script>
+       const typed = new Typed('#typed', {
+           strings: ['мдвтмы', 'vdlsvn', 'vldnvs'],
+           typeSpeed: 50,
+           showCursor: false,
+       });
+   </script>
+   <script src="../scripts/weatherApi.js"></script>
 </body>
 </html>
