@@ -1,0 +1,41 @@
+﻿@media screen and (max-width: 1590px) {
+    .navigation-line {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 700px;
+    }
+
+    .about-portfolio {
+        height: 300px;
+    }
+
+    .about-me {
+        flex-direction: column;
+    }
+
+    .about-me-header-block {
+        display: flex;
+        width: auto;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .about-me-information-block {
+        display: flex;
+        width: auto;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .about-me-information-block-text-wrapper {
+        display: flex;
+        width: auto;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .about-me-information-block-first {
+        text-align: center;
+    }
+}

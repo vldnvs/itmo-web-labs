@@ -1,0 +1,117 @@
+﻿.about-portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 630px;
+    width: 100%;
+}
+
+.navigation-line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+.about-portfolio-wrapper {
+    height: 1080px;
+    margin-bottom: 30px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    height: 1080px;
+    width: 100%;
+}
+
+.about-me-header-block {
+    display: flex;
+    width: 300px;
+    font-size: 56px;
+    align-items: center;
+}
+
+.about-me-information-block {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.about-me-information-block-first {
+    height: 100px;
+}
+
+.about-me-information-block-text-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contacts-information-block {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.skills {
+    height: 1080px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(4, 170px);
+    column-gap: 30px;
+    row-gap: 1em;
+}
+
+.skills-grid-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 8px;
+    height: 100px;
+    width: 100%;
+    font-size: 30px;
+}
+
+.skill-image-container {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.skill-image {
+    display: flex;
+    width: 45%;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+    background: #DAB49D;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+    color: #DAB49D;
+    box-shadow: 10px 10px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+
+.skill-image:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+    box-shadow: 5px 5px rgba(0,0,0,.25);
+}
+
+.skill-image img {
+    max-width: 100px;
+    height: auto;
+    margin: 5px 0;
+}

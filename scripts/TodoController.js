@@ -3,7 +3,12 @@
     const taskElements = document.querySelectorAll(".todo-task");
 
     taskElements.forEach(task => {
-        const taskText = task.querySelector("span").textContent;
+        let taskTextNotTrimmed = task.querySelector("span").textContent;
+
+        const taskText = taskTextNotTrimmed
+            .replace(/\s+/g, '')
+            .trim();
+
         const isChecked = task.querySelector(".todo-check-box").checked;
         tasks.push({ text: taskText, completed: isChecked });
     });
